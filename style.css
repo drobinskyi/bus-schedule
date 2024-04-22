@@ -61,8 +61,7 @@ body {
 /* Таблиця */
 
 main {
-  padding: 40px;
-  padding-top: 0;
+  padding: 0 40px;
 }
 .table {
   width: 100%;
@@ -83,4 +82,16 @@ main {
   font-size: 32px;
   font-weight: 400;
   color: #3f4c5e;
+}
+
+/* Footer */
+
+.footer {
+  height: auto;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  color: #3f4c5e;
+  font-size: 16px;
+  background: linear-gradient(#f7f8f8, 80%, #5c8cbf);
 }
