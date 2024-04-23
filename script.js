@@ -1,25 +1,42 @@
+// Посилання на дані
 const busesFromLvivList = './data/buses-from-lviv.json';
 const busesToLvivList = './data/buses-to-lviv.json';
 
-async function loadBusesFromLviv() {
+// Асинхронна функція
+async function loadBuses(list) {
     try {
-        const server = busesFromLvivList;
-        const response = await fetch(server);
+        const response = await fetch(list);
         const responseResult = await response.json();
         let buses = responseResult.buses;
-        displayBusesFromLviv(buses);
+        displayBuses(buses);
     } catch (error) {
         console.log(error);
     }
 }
 
+// Посилання на DOM-елементи
 const tableBody = document.querySelector('.table-body');
+const directionFromLvivBtn = document.querySelector('.direction-from-lviv');
+const directionToLvivBtn = document.querySelector('.direction-to-lviv');
 
-function displayBusesFromLviv(buses) {
+// Зміна напрямку маршрутів
+directionFromLvivBtn.addEventListener('click', () => {
+    loadBuses(busesFromLvivList);
+    directionFromLvivBtn.classList.add('direction-selected');
+    directionToLvivBtn.classList.remove('direction-selected');
+});
+
+directionToLvivBtn.addEventListener('click', () => {
+    loadBuses(busesToLvivList);
+    directionToLvivBtn.classList.add('direction-selected');
+    directionFromLvivBtn.classList.remove('direction-selected');
+});
+
+// Відображення списку маршрутів
+function displayBuses(buses) {
     tableBody.innerHTML = "";
 
-    buses.forEach(el => {
-        
+    buses.forEach(el => {  
         const oneBus = document.createElement('tr');
         oneBus.classList.add('table-row');
         oneBus.innerHTML = `
@@ -31,6 +48,7 @@ function displayBusesFromLviv(buses) {
     });  
 };
 
+// Зміна кольорів маршрутів
 function changeColor(busNumber) {
     switch (busNumber) {
         case "109":
@@ -69,6 +87,7 @@ function changeColor(busNumber) {
         }
 }
 
+// Стандартні примітки
 function addNote(busNumber) {
     switch (busNumber) {
         case "109":
@@ -83,4 +102,4 @@ function addNote(busNumber) {
         }
 }
 
-loadBusesFromLviv();
+loadBuses(busesFromLvivList);

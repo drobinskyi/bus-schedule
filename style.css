@@ -50,6 +50,13 @@ body {
   font-size: 24px;
   display: grid;
   place-items: center;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+}
+
+.direction-from-lviv:active,
+.direction-to-lviv:active {
+  background-color: #6b7885;
 }
 
 .direction-selected {
