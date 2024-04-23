@@ -25,6 +25,7 @@ function displayBusesFromLviv(buses) {
         oneBus.innerHTML = `
             <td class="table-number" style="color:${changeColor(el.number)};">${el.number}</td>
             <td class="table-time">${el.time}</td>
+            <td class="table-note">${!el.note ? addNote(el.number) : el.note}</td>
         `
         tableBody.appendChild(oneBus);
     });  
@@ -64,6 +65,20 @@ function changeColor(busNumber) {
             break;
         default:
             return "#33302a";
+            break;
+        }
+}
+
+function addNote(busNumber) {
+    switch (busNumber) {
+        case "109":
+            return "Крім суботи і неділі";
+            break;
+        case "113":
+            return "Крім неділі";
+            break;
+        default:
+            return "";
             break;
         }
 }

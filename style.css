@@ -12,7 +12,7 @@ body {
 /* Header */
 
 .header {
-  padding: 20px;
+  padding: 20px 16px;
   height: auto;
   width: 100%;
   position: sticky;
@@ -29,13 +29,13 @@ body {
 }
 
 .direction-choice {
-  padding: 0 20px;
+  padding: 0 16px;
 }
 
 .direction-block {
   height: 40px;
   margin: 0 auto;
-  min-width: 320px;
+  min-width: 300px;
   max-width: 640px;
   display: flex;
   background-color: #b7bdc2;
@@ -61,7 +61,7 @@ body {
 /* Таблиця */
 
 main {
-  padding: 0 40px;
+  padding: 0 32px;
 }
 .table {
   width: 100%;
@@ -74,7 +74,8 @@ main {
 }
 
 .table-number {
-  font-size: 40px;
+  width: 40%;
+  font-size: 36px;
   font-weight: 900;
 }
 
@@ -84,11 +85,17 @@ main {
   color: #3f4c5e;
 }
 
+.table-note {
+  width: 25%;
+  font-size: 16px;
+  color: #3f4c5e;
+}
+
 /* Footer */
 
 .footer {
   height: auto;
-  padding: 40px;
+  padding: 28px 32px;
   display: flex;
   justify-content: space-between;
   color: #3f4c5e;
