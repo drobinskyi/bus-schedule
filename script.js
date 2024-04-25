@@ -39,10 +39,16 @@ function displayBuses(buses) {
     buses.forEach(el => {  
         const oneBus = document.createElement('tr');
         oneBus.classList.add('table-row');
+
         oneBus.innerHTML = `
             <td class="table-number" style="color:${changeColor(el.number)};">${el.number}</td>
-            <td class="table-time">${el.time}</td>
+            <td class="table-time" onclick="${showAndHideDeparture(el.departure_city, el.departure_time)}">
+                ${el.time}</td>
             <td class="table-note">${!el.note ? addNote(el.number) : el.note}</td>
+            <td class="table-departure hidden">
+                ${el.departure_city}<br>
+                <span class="table-departure-time">${el.departure_time}</span>
+            </td>
         `
         tableBody.appendChild(oneBus);
     });  
@@ -100,6 +106,12 @@ function addNote(busNumber) {
             return "";
             break;
         }
+}
+
+// Показ часу відправлення
+
+function showAndHideDeparture(city, time) {
+    
 }
 
 loadBuses(busesFromLvivList);

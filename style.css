@@ -87,15 +87,30 @@ main {
 }
 
 .table-time {
+  width: 35%;
   font-size: 32px;
   font-weight: 400;
   color: #3f4c5e;
 }
 
 .table-note {
-  width: 25%;
   font-size: 16px;
   color: #3f4c5e;
+}
+
+.table-departure {
+  color: #3f4c5e;
+  font-size: 16px;
+}
+
+.table-departure-time {
+  color: #0f1b38;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.hidden {
+  display: none;
 }
 
 /* Footer */

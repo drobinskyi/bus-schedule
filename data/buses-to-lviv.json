@@ -3,54 +3,77 @@
     [
         {
         "number": "113",
-        "time": "5:35"
+        "time": "5:35",
+        "departure_city": "Яструбків",
+        "departure_time": "5:15"
     },
     {
         "number": "202",
-        "time": "5:50"
+        "time": "5:50",
+        "departure_city": "село",
+        "departure_time": "5:10"
     },
     {
         "number": "614",
         "time": "6:00",
-        "note":"(!) 50 хв з Переможного"
+        "note":"(!)",
+        "departure_city": "Переможне",
+        "departure_time": "5:20"
     },
     {
         "number": "603",
-        "time": "6:20"
+        "time": "6:20",
+        "departure_city": "Повергів",
+        "departure_time": "5:40"
     },
     {
         "number": "604 Б",
-        "time": "6:30"
+        "time": "6:30",
+        "departure_city": "Тернопілля",
+        "departure_time": "6:00"
     },
     {
         "number": "113",
-        "time": "6:40"
+        "time": "6:40",
+        "departure_city": "Яструбків",
+        "departure_time": "6:15"
     },
     {
         "number": "614",
         "time": "6:50",
-        "note":"(!) 50 хв з Переможного"
+        "note":"(!)",
+        "departure_city": "Переможне",
+        "departure_time": "6:00"
     },
     {
         "number": "118",
         "time": "7:00",
-        "note": "З Черкас"
+        "departure_city": "Черкаси",
+        "departure_time": "6:20"
     },
     {
         "number": "604 A",
-        "time": "7:10"
+        "time": "7:10",
+        "departure_city": "Сайків",
+        "departure_time": "6:15"
     },
     {
         "number": "202",
-        "time": "7:15"
+        "time": "7:15",
+        "departure_city": "село",
+        "departure_time": "6:30"
     },
     {
         "number": "113 A",
-        "time": "7:25"
+        "time": "7:25",
+        "departure_city": "Яструбків",
+        "departure_time": "6:55"
     },
     {
         "number": "603",
-        "time": "7:30"
+        "time": "7:30",
+        "departure_city": "Липиці",
+        "departure_time": "6:50"
     },
     {
         "number": "109",
@@ -59,24 +82,32 @@
     {
         "number": "614",
         "time": "7:45",
-        "note": "З Переможного"
+        "departure_city": "Переможне",
+        "departure_time": "6:55"
     },
     {
         "number": "604 A",
-        "time": "8:05"
+        "time": "8:05",
+        "departure_city": "Миколаїв",
+        "departure_time": "7:00"
     },
     {
         "number": "603",
-        "time": "8:20"
+        "time": "8:20",
+        "departure_city": "Гірське",
+        "departure_time": "7:30"
     },
     {
         "number": "614",
         "time": "8:40",
-        "note":"З Переможного"
+        "departure_city": "Переможне",
+        "departure_time": "7:30"
     },
     {
         "number": "113",
-        "time": "8:50"
+        "time": "8:50",
+        "departure_city": "Яструбків",
+        "departure_time": "8:15"
     },
     {
         "number": "132",
@@ -84,25 +115,33 @@
     },
     {
         "number": "604 Б",
-        "time": "9:10"
+        "time": "9:10",
+        "departure_city": "Миколаїв",
+        "departure_time": "8:20"
     },
     {
         "number": "118",
         "time": "9:30",
-        "note": "З Дмитре"
+        "departure_city": "Дмитре",
+        "departure_time": "9:00"
     },
     {
         "number": "113",
-        "time": "9:50"
+        "time": "9:50",
+        "departure_city": "Яструбків",
+        "departure_time": "9:20"
     },
     {
         "number": "614",
         "time": "10:10",
-        "note": "З Переможного"
+        "departure_city": "Переможне",
+        "departure_time": "9:20"
     },
     {
         "number": "603",
-        "time": "10:20"
+        "time": "10:20",
+        "departure_city": "Повергів",
+        "departure_time": "9:40"
     },
     {
         "number": "109",
@@ -110,42 +149,58 @@
     },
     {
         "number": "604 A",
-        "time": "10:50"
+        "time": "10:50",
+        "departure_city": "Миколаїв",
+        "departure_time": "9:40"
     },
     {
         "number": "118",
         "time": "11:00",
-        "note": "З Черкас"
+        "departure_city": "Черкаси",
+        "departure_time": "10:30"
     },
     {
         "number": "113 A",
-        "time": "11:10"
+        "time": "11:10",
+        "departure_city": "Яструбків",
+        "departure_time": "10:45"
     },
     {
         "number": "614",
         "time": "11:20",
-        "note": "(!) 40 хв з Тулиголове"
+        "note": "(!)",
+        "departure_city": "Тулиголове",
+        "departure_time": "10:40"
     },
     {
         "number": "202",
-        "time": "11:45"
+        "time": "11:45",
+        "departure_city": "Комарно",
+        "departure_time": "10:50"
     },
     {
         "number": "603",
-        "time": "12:00"
+        "time": "12:00",
+        "departure_city": "Липиці",
+        "departure_time": "11:20"
     },
     {
         "number": "604 Б",
-        "time": "12:20"
+        "time": "12:20",
+        "departure_city": "Миколаїв",
+        "departure_time": "11:30"
     },
     {
         "number": "113",
-        "time": "12:30"
+        "time": "12:30",
+        "departure_city": "Яструбків",
+        "departure_time": "12:05"
     },
     {
         "number": "614",
         "time": "12:50",
-        "note": "З Переможного"
+        "departure_city": "Переможне",
+        "departure_time": "12:00"
     },
     {
         "number": "132",
@@ -153,20 +208,27 @@
     },
     {
         "number": "604 A",
-        "time": "13:10"
+        "time": "13:10",
+        "departure_city": "Миколаїв",
+        "departure_time": "12:00"
     },
     {
         "number": "118",
         "time": "13:30",
-        "note": "З Дмитре"
+        "departure_city": "Дмитре",
+        "departure_time": "13:05"
     },
     {
         "number": "604 Б",
-        "time": "13:40"
+        "time": "13:40",
+        "departure_city": "Миколаїв",
+        "departure_time": "12:50"
     },
     {
         "number": "202",
-        "time": "13:55"
+        "time": "13:55",
+        "departure_city": "Комарно",
+        "departure_time": "13:00"
     },
     {
         "number": "109",
@@ -174,25 +236,33 @@
     },
     {
         "number": "113 A",
-        "time": "14:20"
+        "time": "14:20",
+        "departure_city": "Яструбків",
+        "departure_time": "13:55"
     },
     {
         "number": "603",
-        "time": "14:30"
+        "time": "14:30",
+        "departure_city": "Гірське",
+        "departure_time": "13:30"
     },
     {
         "number": "614",
         "time": "14:50",
-        "note":"З Переможного"
+        "departure_city": "Переможне",
+        "departure_time": "14:00"
     },
     {
         "number": "118",
         "time": "15:10",
-        "note": "З Черкас"
+        "departure_city": "Черкаси",
+        "departure_time": "14:45"
     },
     {
         "number": "604 Б",
-        "time": "15:30"
+        "time": "15:30",
+        "departure_city": "Миколаїв",
+        "departure_time": "14:30"
     },
     {
         "number": "132",
@@ -201,37 +271,50 @@
     {
         "number": "614",
         "time": "16:10",
-        "note":"З Переможного"
+        "departure_city": "Переможне",
+        "departure_time": "15:20"
     },
     {
         "number": "603",
-        "time": "16:20"
+        "time": "16:20",
+        "departure_city": "Липиці",
+        "departure_time": "15:40"
     },
     {
         "number": "604 A",
-        "time": "16:40"
+        "time": "16:40",
+        "departure_city": "Миколаїв",
+        "departure_time": "15:25"
     },
     {
         "number": "113",
-        "time": "16:50"
+        "time": "16:50",
+        "departure_city": "Яструбків",
+        "departure_time": "16:30"
     },
     {
         "number": "604 Б",
-        "time": "17:10"
+        "time": "17:10",
+        "departure_city": "Миколаїв",
+        "departure_time": "16:30"
     },
     {
         "number": "202",
-        "time": "17:20"
+        "time": "17:20",
+        "departure_city": "Комарно",
+        "departure_time": "16:25"
     },
     {
         "number": "614",
         "time": "17:30",
-        "note":"З Тулиголове"
+        "departure_city": "Тулиголове",
+        "departure_time": "16:40"
     },
     {
         "number": "118",
         "time": "17:50",
-        "note": "З Дмитре"
+        "departure_city": "Дмитре",
+        "departure_time": "17:20"
     },
     {
         "number": "109",
@@ -239,29 +322,39 @@
     },
     {
         "number": "113 A",
-        "time": "18:10"
+        "time": "18:10",
+        "departure_city": "Яструбків",
+        "departure_time": "17:40"
     },
     {
         "number": "603",
-        "time": "18:20"
+        "time": "18:20",
+        "departure_city": "Повергів",
+        "departure_time": "17:40"
     },
     {
         "number": "604 A",
-        "time": "18:30"
+        "time": "18:30",
+        "departure_city": "Миколаїв",
+        "departure_time": "17:20"
     },
     {
         "number": "614",
         "time": "18:45",
-        "note": "З Переможного"
+        "departure_city": "Переможне",
+        "departure_time": "18:00"
     },
     {
         "number": "113 A",
-        "time": "18:55"
+        "time": "18:55",
+        "departure_city": "Яструбків",
+        "departure_time": "18:30"
     }, 
     {
         "number": "118",
         "time": "19:00",
-        "note": "З Черкас"
+        "departure_city": "Черкаси",
+        "departure_time": "18:30"
     },
     {
         "number": "132",
