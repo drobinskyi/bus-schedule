@@ -42,8 +42,7 @@ function displayBuses(buses) {
 
         oneBus.innerHTML = `
             <td class="table-number" style="color:${changeColor(el.number)};">${el.number}</td>
-            <td class="table-time" onclick="${showAndHideDeparture(el.departure_city, el.departure_time)}">
-                ${el.time}</td>
+            <td class="table-time">${el.time}</td>
             <td class="table-note">${!el.note ? addNote(el.number) : el.note}</td>
             <td class="table-departure hidden">
                 ${el.departure_city}<br>
@@ -51,6 +50,8 @@ function displayBuses(buses) {
             </td>
         `
         tableBody.appendChild(oneBus);
+
+        
     });  
 };
 
@@ -110,8 +111,11 @@ function addNote(busNumber) {
 
 // Показ часу відправлення
 
-function showAndHideDeparture(city, time) {
-    
-}
+// function showAndHideDeparture() {
+//     const note = document.querySelector('.table-note');
+//     const departure = document.querySelector('.table-departure');
+//     note.classList.toggle('hidden');
+//     departure.classList.toggle('hidden');
+// }
 
 loadBuses(busesFromLvivList);
