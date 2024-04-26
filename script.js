@@ -40,19 +40,30 @@ function displayBuses(buses) {
         const oneBus = document.createElement('tr');
         oneBus.classList.add('table-row');
 
+        function showDeparture() {
+            const departureInfo = `
+                <td class="table-departure">
+                    ${el.departure_city ? el.departure_city : ""}<br>
+                    <span class="table-departure-time">${el.departure_time ? el.departure_time : ""}</span>
+                </td>
+            `
+            return departureInfo;
+        }
+
+        function showNote() {
+            const noteInfo = `
+                <td class="table-note">${el.note ? el.note : addNote(el.number)}</td>
+            `
+            return noteInfo;
+        }
+
         oneBus.innerHTML = `
             <td class="table-number" style="color:${changeColor(el.number)};">${el.number}</td>
-            <td class="table-time">${el.time}</td>
-            <td class="table-note">${!el.note ? addNote(el.number) : el.note}</td>
-            <td class="table-departure hidden">
-                ${el.departure_city}<br>
-                <span class="table-departure-time">${el.departure_time}</span>
-            </td>
+            <td class="table-time" title="${el.note ? el.note : addNote(el.number)}">${el.time}</td>
+            ${el.departure_city ? showDeparture() : showNote()}
         `
         tableBody.appendChild(oneBus);
-
-        
-    });  
+    });   
 };
 
 // Зміна кольорів маршрутів
@@ -108,14 +119,5 @@ function addNote(busNumber) {
             break;
         }
 }
-
-// Показ часу відправлення
-
-// function showAndHideDeparture() {
-//     const note = document.querySelector('.table-note');
-//     const departure = document.querySelector('.table-departure');
-//     note.classList.toggle('hidden');
-//     departure.classList.toggle('hidden');
-// }
 
 loadBuses(busesFromLvivList);
