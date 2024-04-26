@@ -93,7 +93,11 @@ main {
   color: #3f4c5e;
 }
 
-.table-note,
+.table-note {
+  font-size: 16px;
+  color: #a5aaae;
+}
+
 .table-departure {
   font-size: 16px;
   color: #3f4c5e;
