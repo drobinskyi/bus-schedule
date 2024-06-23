@@ -18,18 +18,21 @@ async function loadBuses(list) {
 const tableBody = document.querySelector('.table-body');
 const directionFromLvivBtn = document.querySelector('.direction-from-lviv');
 const directionToLvivBtn = document.querySelector('.direction-to-lviv');
+const directionAnimation = document.querySelector('.direction-selected');
 
 // Зміна напрямку маршрутів
 directionFromLvivBtn.addEventListener('click', () => {
     loadBuses(busesFromLvivList);
-    directionFromLvivBtn.classList.add('direction-selected');
-    directionToLvivBtn.classList.remove('direction-selected');
+    directionFromLvivBtn.classList.add('direction-text-selected');
+    directionToLvivBtn.classList.remove('direction-text-selected');
+    directionAnimation.setAttribute("style", "transform: translateX(0px)");
 });
 
 directionToLvivBtn.addEventListener('click', () => {
     loadBuses(busesToLvivList);
-    directionToLvivBtn.classList.add('direction-selected');
-    directionFromLvivBtn.classList.remove('direction-selected');
+    directionToLvivBtn.classList.add('direction-text-selected');
+    directionFromLvivBtn.classList.remove('direction-text-selected');
+    directionAnimation.setAttribute("style", "transform: translateX(100%)");
 });
 
 // Відображення списку маршрутів
