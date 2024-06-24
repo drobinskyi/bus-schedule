@@ -60,6 +60,7 @@ body {
 .direction-from-lviv:active,
 .direction-to-lviv:active {
   color: #6b7885;
+  font-size: 20px;
 }
 
 .direction-text-selected {
