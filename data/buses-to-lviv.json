@@ -95,7 +95,9 @@
         {
             "id": 14,
             "number": "109",
-            "time": "7:35"
+            "time": "7:35",
+            "departure_city": "Добряни",
+            "departure_time": "7:05"
         },
         {
             "id": 15,
@@ -177,7 +179,9 @@
         {
             "id": 26,
             "number": "109",
-            "time": "10:40"
+            "time": "10:35",
+            "departure_city": "Добряни",
+            "departure_time": "10:10"
         },
         {
             "id": 27,
@@ -280,7 +284,9 @@
         {
             "id": 41,
             "number": "109",
-            "time": "14:05"
+            "time": "14:05",
+            "departure_city": "Добряни",
+            "departure_time": "13:35"
         },
         {
             "id": 42,
@@ -383,7 +389,9 @@
         {
             "id": 56,
             "number": "109",
-            "time": "18:00"
+            "time": "18:00",
+            "departure_city": "Тернопілля",
+            "departure_time": "17:45"
         },
         {
             "id": 57,
