@@ -72,10 +72,14 @@ function displayBuses(buses) {
 
         oneBus.innerHTML = `
             <td class="table-number" style="color:${changeColor(el.number)};">${el.number}</td>
-            <td class="table-time" onclick="selectRoad(${el.id})">${el.time}</td>
+            <td class="table-time">${el.time}</td>
             ${el.departure_time ? showDeparture() : showNote()}
         `
         tableBody.appendChild(oneBus);
+
+        oneBus.addEventListener('click', () => {
+            selectRoad(el.id)
+        });
     });
 };
 

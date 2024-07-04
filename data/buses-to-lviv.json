@@ -71,7 +71,8 @@
             "id": 10,
             "number": "604 A",
             "time": "7:10",
-            "departure_city": "Сайків",
+            "departure_city": "Миколаїв",
+            "alternative_departure_city": "Сайків",
             "departure_time": "6:15"
         },
         {
