@@ -4,324 +4,386 @@
         {
             "id": 1,
             "number": "202",
-            "time": "6:50"
+            "time": "6:50",
+            "arrive_city": "Комарно"
         },
         {
             "id": 2,
             "number": "113",
             "time": "7:00",
+            "arrive_city": "Яструбків",
             "note": "Крім неділі"
         },
         {
             "id": 3,
             "number": "132",
-            "time": "7:10"
+            "time": "7:10",
+            "arrive_city": "Диб'янка"
         },
         {
             "id": 4,
             "number": "614",
-            "time": "7:20"
+            "time": "7:20",
+            "arrive_city": "Переможне"
         },
         {
             "id": 5,
             "number": "603",
-            "time": "7:30"
+            "time": "7:30",
+            "arrive_city": "Повергів"
         },
         {
             "id": 6,
             "number": "604 A",
-            "time": "7:50"
+            "time": "7:50",
+            "arrive_city": "Миколаїв"
         },
         {
             "id": 7,
             "number": "113",
             "time": "8:00",
+            "arrive_city": "Яструбків",
             "note": "Крім неділі"
         },
         {
             "id": 8,
             "number": "614",
-            "time": "8:20"
+            "time": "8:20",
+            "arrive_city": "Тулиголове"
         },
         {
             "id": 9,
             "number": "118",
             "time": "8:30",
+            "arrive_city": "Черкаси",
             "note": "Крім неділі"
         },
         {
             "id": 10,
             "number": "202",
-            "time": "8:40"
+            "time": "8:40",
+            "arrive_city": "Комарно"
         },
         {
             "id": 11,
             "number": "109",
             "time": "8:50",
+            "arrive_city": "Добряни",
             "note": "Крім суботи і неділі"
         },
         {
             "id": 12,
             "number": "604 Б",
-            "time": "9:10"
+            "time": "9:10",
+            "arrive_city": "Миколаїв"
         },
         {
             "id": 13,
             "number": "113 A",
-            "time": "9:20"
+            "time": "9:20",
+            "arrive_city": "Яструбків"
         },
         {
             "id": 14,
             "number": "603",
-            "time": "9:30"
+            "time": "9:30",
+            "arrive_city": "Липиці"
         },
         {
             "id": 15,
             "number": "604 A",
-            "time": "9:40"
+            "time": "9:40",
+            "arrive_city": "Миколаїв"
         },
         {
             "id": 16,
             "number": "614",
-            "time": "10:00"
+            "time": "10:00",
+            "arrive_city": "Переможне"
         },
         {
             "id": 17,
             "number": "113",
             "time": "10:10",
+            "arrive_city": "Яструбків",
             "note": "Крім неділі"
         },
         {
             "id": 18,
             "number": "604 Б",
-            "time": "10:40"
+            "time": "10:40",
+            "arrive_city": "Миколаїв"
         },
         {
             "id": 19,
             "number": "132",
-            "time": "10:50"
+            "time": "10:50",
+            "arrive_city": "Диб'янка"
         },
         {
             "id": 20,
             "number": "118",
-            "time": "11:00"
+            "time": "11:00",
+            "arrive_city": "Дмитре"
         },
         {
             "id": 21,
             "number": "603",
-            "time": "11:30"
+            "time": "11:30",
+            "arrive_city": "Гірське"
         },
         {
             "id": 22,
             "number": "109",
             "time": "11:40",
+            "arrive_city": "Добряни",
             "note": "Крім суботи і неділі"
         },
         {
             "id": 23,
             "number": "614",
-            "time": "12:00"
+            "time": "12:00",
+            "arrive_city": "Переможне"
         },
         {
             "id": 24,
             "number": "604 Б",
-            "time": "12:20"
+            "time": "12:20",
+            "arrive_city": "Миколаїв"
         },
         {
             "id": 25,
             "number": "118",
-            "time": "12:30"
+            "time": "12:30",
+            "arrive_city": "Черкаси"
         },
         { 
             "id": 26,
             "number": "113 A",
-            "time": "12:40" 
+            "time": "12:40",
+            "arrive_city": "Яструбків"
         },
         {
             "id": 27,
             "number": "614",
-            "time": "13:20" 
+            "time": "13:20",
+            "arrive_city": "Переможне"
         },
         {
             "id": 28,
             "number": "603",
-            "time": "13:30" 
+            "time": "13:30",
+            "arrive_city": "Липиці" 
         },
         {
             "id": 29,
             "number": "604 A",
-            "time": "13:40" 
+            "time": "13:40",
+            "arrive_city": "Миколаїв"
         },
         {
             "id": 30,
             "number": "132",
-            "time": "13:50"
+            "time": "13:50",
+            "arrive_city": "Диб'янка"
         },
         {
             "id": 31, 
             "number": "202",
-            "time": "14:00" 
+            "time": "14:00",
+            "arrive_city": "Комарно"
         },
         {
             "id": 32, 
             "number": "113",
             "time": "14:10",
+            "arrive_city": "Яструбків",
             "note": "Крім неділі" 
         },
         {
             "id": 33, 
             "number": "604 Б",
-            "time": "14:20" 
+            "time": "14:20",
+            "arrive_city": "Миколаїв" 
         },
         {
             "id": 34, 
             "number": "614",
-            "time": "14:40" 
+            "time": "14:40",
+            "arrive_city": "Тулиголове" 
         },
         {
             "id": 35, 
             "number": "118",
-            "time": "14:50"
+            "time": "14:50",
+            "arrive_city": "Дмитре"
         },
         {
             "id": 36, 
             "number": "202",
-            "time": "15:10" 
+            "time": "15:10",
+            "arrive_city": "Комарно" 
         },
         {
             "id": 37, 
             "number": "603",
-            "time": "15:20" 
+            "time": "15:20",
+            "arrive_city": "Повергів"
         },
         { 
             "id": 38,
             "number": "604 A",
-            "time": "15:40" 
+            "time": "15:40",
+            "arrive_city": "Миколаїв"
         },
         {
             "id": 39,
             "number": "614",
-            "time": "16:00"
+            "time": "16:00",
+            "arrive_city": "Переможне"
         },
         {
             "id": 40,
             "number": "113 A",
-            "time": "16:10" 
+            "time": "16:10",
+            "arrive_city": "Яструбків"
         },
         {
             "id": 41, 
             "number": "109",
             "time": "16:30",
+            "arrive_city": "Добряни",
             "note": "Крім суботи і неділі" 
         },
         {
             "id": 42, 
             "number": "118",
-            "time": "16:40"
+            "time": "16:40",
+            "arrive_city": "Черкаси"
         },
         {
             "id": 43, 
             "number": "113",
             "time": "17:10",
+            "arrive_city": "Яструбків",
             "note": "Крім неділі" 
         },
         {
             "id": 44,
             "number": "603",
-            "time": "17:30" 
+            "time": "17:30",
+            "arrive_city": "Гірське" 
         },
         {
             "id": 45,
             "number": "604 A",
-            "time": "17:40" 
+            "time": "17:40",
+            "arrive_city": "Миколаїв"
         },
         {
             "id": 46, 
             "number": "132",
-            "time": "17:50" 
+            "time": "17:50",
+            "arrive_city": "Диб'янка"
         },
         {
             "id": 47, 
             "number": "614",
-            "time": "18:00"
+            "time": "18:00",
+            "arrive_city": "Тулиголове"
         },
         {
             "id": 48, 
             "number": "113",
             "time": "18:10",
+            "arrive_city": "Яструбків",
             "note": "Крім неділі" 
         },
         {
             "id": 49, 
             "number": "604 Б",
-            "time": "18:20" 
+            "time": "18:20",
+            "arrive_city": "Миколаїв" 
         },
         {
             "id": 50, 
             "number": "202",
-            "time": "18:30" 
+            "time": "18:30",
+            "arrive_city": "Комарно" 
         },
         {
             "id": 51, 
             "number": "614",
-            "time": "18:40"
+            "time": "18:40",
+            "arrive_city": "Переможне"
         },
         {
             "id": 52, 
             "number": "603",
-            "time": "18:50" 
+            "time": "18:50",
+            "arrive_city": "Липиці" 
         },
         {
             "id": 53, 
             "number": "604 Б",
-            "time": "19:00" 
+            "time": "19:00",
+            "arrive_city": "Миколаїв" 
         },
         {
             "id": 54,
             "number": "109",
             "time": "19:10",
+            "arrive_city": "Добряни",
             "note": "Крім суботи і неділі" 
         },
         {
             "id": 55,
             "number": "113 A",
-            "time": "19:20" 
+            "time": "19:20",
+            "arrive_city": "Яструбків" 
         },
         {
             "id": 56,
             "number": "603",
-            "time": "19:30" 
+            "time": "19:30",
+            "arrive_city": "Липиці" 
         },
         {
             "id": 57,
             "number": "604 A",
-            "time": "19:40" 
+            "time": "19:40",
+            "arrive_city": "Миколаїв" 
         },
         {
             "id": 58,
             "number": "118",
-            "time": "19:50"
+            "time": "19:50",
+            "arrive_city": "Дмитре"
         },
         {
             "id": 59,
             "number": "614",
-            "time": "20:00"
+            "time": "20:00",
+            "arrive_city": "Комарно"
         },
         {
             "id": 60,
             "number": "113",
             "time": "20:10",
+            "arrive_city": "Яструбків",
             "note": "Крім неділі" 
         },
         {
             "id": 61,
             "number": "118",
-            "time": "20:30"
+            "time": "20:30",
+            "arrive_city": "Черкаси"
         },
         {
             "id": 62,
             "number": "132",
-            "time": "21:00" 
+            "time": "21:00",
+            "arrive_city": "Диб'янка"
         }
     ]
 }
