@@ -20,6 +20,7 @@ const tableBody = document.querySelector('.table-body');
 const directionFromLvivBtn = document.querySelector('.direction-from-lviv');
 const directionToLvivBtn = document.querySelector('.direction-to-lviv');
 const directionAnimation = document.querySelector('.direction-selected');
+const modalWindow = document.querySelector('.modal');
 
 // Зміна напрямку маршрутів
 directionFromLvivBtn.addEventListener('click', () => {
@@ -80,13 +81,43 @@ function displayBuses(buses) {
 
 // Вибір маршруту
 function selectRoad(id) {
-    console.log(id);
     let array = arraySchedule;
     let result;
     result = array.filter((val) => {
         return val.id == id;
     })[0];
-    console.log(result);
+    routeModal(result);
+}
+
+// Відображення модального вікна
+function routeModal(data) {
+    console.log(data);
+    modalWindow.setAttribute("style", "display: flex");
+    modalWindow.innerHTML = `
+        <div class="modal-window">
+            <div class="modal-header">
+                <div class="modal-header-number">${data.number}</div>
+                <div class="modal-header-cities">
+                    <p>${(data.departure_city ? data.departure_city : 'Львів').toUpperCase()}</p>
+                    <p>${(data.arrive_city ? data.arrive_city : 'Львів').toUpperCase()}</p>
+                </div>
+            </div>
+            <div class="modal-content">
+                ${data.note ? data.note : ""}
+            </div>
+            <button type="button" class="button modal-close">Закрити</button>
+        </div>
+    `
+    // Колір таблички з номером
+    const modalNumber = document.querySelector('.modal-header-number');
+    modalNumber.setAttribute("style", `background-color: ${changeColor(data.number)}`);
+
+
+    // Закриття модального вікна
+    const closeModal = document.querySelector('.modal-close');
+    closeModal.addEventListener('click', () => {
+        modalWindow.setAttribute("style", "display: none");
+    });
 }
 
 // Зміна кольорів маршрутів
