@@ -13,7 +13,8 @@
             "id": 2,
             "number": "202",
             "time": "5:50",
-            "departure_city": "село",
+            "departure_city": "Комарно",
+            "alternative_departure_city": "село",
             "departure_time": "5:10"
         },
         {
@@ -77,7 +78,8 @@
             "id": 11,
             "number": "202",
             "time": "7:15",
-            "departure_city": "село",
+            "departure_city": "Комарно",
+            "alternative_departure_city": "село",
             "departure_time": "6:30"
         },
         {

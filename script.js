@@ -56,7 +56,7 @@ function displayBuses(buses) {
         function showDeparture() {
             const departureInfo = `
                 <td class="table-departure">
-                    ${el.departure_city ? el.departure_city : ""}<br>
+                    ${el.alternative_departure_city ? el.alternative_departure_city : el.departure_city}<br>
                     <span class="table-departure-time">${el.departure_time ? el.departure_time : ""}</span>
                 </td>
             `
