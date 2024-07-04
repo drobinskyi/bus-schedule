@@ -6,7 +6,8 @@
             "number": "113",
             "time": "5:35",
             "departure_city": "Яструбків",
-            "departure_time": "5:15"
+            "departure_time": "5:15",
+            "note": "Крім неділі"
         },
         {
             "id": 2,
@@ -48,7 +49,8 @@
             "number": "113",
             "time": "6:40",
             "departure_city": "Яструбків",
-            "departure_time": "6:15"
+            "departure_time": "6:15",
+            "note": "Крім неділі"
         },
         {
             "id": 8,
@@ -97,7 +99,8 @@
             "number": "109",
             "time": "7:35",
             "departure_city": "Добряни",
-            "departure_time": "7:05"
+            "departure_time": "7:05",
+            "note": "Крім суботи і неділі"
         },
         {
             "id": 15,
@@ -132,7 +135,8 @@
             "number": "113",
             "time": "8:50",
             "departure_city": "Яструбків",
-            "departure_time": "8:15"
+            "departure_time": "8:15",
+            "note": "Крім неділі"
         },
         {
             "id": 20,
@@ -160,7 +164,8 @@
             "number": "113",
             "time": "9:50",
             "departure_city": "Яструбків",
-            "departure_time": "9:20"
+            "departure_time": "9:20",
+            "note": "Крім неділі"
         },
         {
             "id": 24,
@@ -181,7 +186,8 @@
             "number": "109",
             "time": "10:35",
             "departure_city": "Добряни",
-            "departure_time": "10:10"
+            "departure_time": "10:10",
+            "note": "Крім суботи і неділі"
         },
         {
             "id": 27,
@@ -237,7 +243,8 @@
             "number": "113",
             "time": "12:30",
             "departure_city": "Яструбків",
-            "departure_time": "12:05"
+            "departure_time": "12:05",
+            "note": "Крім неділі"
         },
         {
             "id": 35,
@@ -286,7 +293,8 @@
             "number": "109",
             "time": "14:05",
             "departure_city": "Добряни",
-            "departure_time": "13:35"
+            "departure_time": "13:35",
+            "note": "Крім суботи і неділі"
         },
         {
             "id": 42,
@@ -356,7 +364,8 @@
             "number": "113",
             "time": "16:50",
             "departure_city": "Яструбків",
-            "departure_time": "16:30"
+            "departure_time": "16:30",
+            "note": "Крім неділі"
         },
         {
             "id": 52,
@@ -391,7 +400,8 @@
             "number": "109",
             "time": "18:00",
             "departure_city": "Тернопілля",
-            "departure_time": "17:45"
+            "departure_time": "17:45",
+            "note": "Крім суботи і неділі"
         },
         {
             "id": 57,
@@ -426,7 +436,8 @@
             "number": "113",
             "time": "18:55",
             "departure_city": "Яструбків",
-            "departure_time": "18:30"
+            "departure_time": "18:30",
+            "note": "Крім неділі"
         }, 
         {
             "id": 62,

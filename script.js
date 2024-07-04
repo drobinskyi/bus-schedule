@@ -9,6 +9,7 @@ async function loadBuses(list) {
         const responseResult = await response.json();
         let buses = responseResult.buses;
         displayBuses(buses);
+        loadSchedule(buses);
     } catch (error) {
         console.log(error);
     }
@@ -35,6 +36,14 @@ directionToLvivBtn.addEventListener('click', () => {
     directionAnimation.setAttribute("style", "transform: translateX(100%)");
 });
 
+// Масив маршрутів
+
+let arraySchedule = [];
+
+function loadSchedule(data) {
+    arraySchedule = data;
+}
+
 // Відображення списку маршрутів
 function displayBuses(buses) {
     tableBody.innerHTML = "";
@@ -55,19 +64,30 @@ function displayBuses(buses) {
 
         function showNote() {
             const noteInfo = `
-                <td class="table-note">${el.note ? el.note : addNote(el.number)}</td>
+                <td class="table-note">${el.note ? el.note : ""}</td>
             `
             return noteInfo;
         }
 
         oneBus.innerHTML = `
             <td class="table-number" style="color:${changeColor(el.number)};">${el.number}</td>
-            <td class="table-time" title="${el.note ? el.note : addNote(el.number)}">${el.time}</td>
-            ${el.departure_city ? showDeparture() : showNote()}
+            <td class="table-time" onclick="selectRoad(${el.id})">${el.time}</td>
+            ${el.departure_time ? showDeparture() : showNote()}
         `
         tableBody.appendChild(oneBus);
-    });   
+    });
 };
+
+// Вибір маршруту
+function selectRoad(id) {
+    console.log(id);
+    let array = arraySchedule;
+    let result;
+    result = array.filter((val) => {
+        return val.id == id;
+    })[0];
+    console.log(result);
+}
 
 // Зміна кольорів маршрутів
 function changeColor(busNumber) {
@@ -104,21 +124,6 @@ function changeColor(busNumber) {
             break;
         default:
             return "#33302a";
-            break;
-        }
-}
-
-// Стандартні примітки
-function addNote(busNumber) {
-    switch (busNumber) {
-        case "109":
-            return "Крім суботи і неділі";
-            break;
-        case "113":
-            return "Крім неділі";
-            break;
-        default:
-            return "";
             break;
         }
 }

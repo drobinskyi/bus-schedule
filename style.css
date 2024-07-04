@@ -108,6 +108,7 @@ main {
   font-size: 32px;
   font-weight: 400;
   color: #3f4c5e;
+  cursor: pointer;
 }
 
 .table-note {
