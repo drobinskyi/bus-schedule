@@ -100,7 +100,7 @@ function routeModal(data) {
     modalWindow.innerHTML = `
         <div class="modal-window">
             <div class="modal-header">
-                <div class="modal-header-number">${data.number}</div>
+                <div class="modal-header-number"><span>${data.number}</span></div>
                 <div class="modal-header-cities">
                     <p>${(data.departure_city ? data.departure_city : 'Львів').toUpperCase()}</p>
                     <p>${(data.arrive_city ? data.arrive_city : 'Львів').toUpperCase()}</p>
