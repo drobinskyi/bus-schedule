@@ -22,6 +22,7 @@ const directionToLvivBtn = document.querySelector('.direction-to-lviv');
 const directionAnimation = document.querySelector('.direction-selected');
 const modalWindow = document.querySelector('.modal');
 
+
 // Зміна напрямку маршрутів
 directionFromLvivBtn.addEventListener('click', () => {
     loadBuses(busesFromLvivList);
@@ -95,7 +96,6 @@ function selectRoad(id) {
 
 // Відображення модального вікна
 function routeModal(data) {
-    console.log(data);
     modalWindow.setAttribute("style", "display: flex");
     modalWindow.innerHTML = `
         <div class="modal-window">
@@ -107,11 +107,30 @@ function routeModal(data) {
                 </div>
             </div>
             <div class="modal-content">
-                ${data.note ? data.note : ""}
+                <div class="modal-note">
+                    ${data.note ? data.note : ""}
+                </div>
+                <div class="modal-list"></div>
             </div>
             <button type="button" class="button modal-close">Закрити</button>
         </div>
     `
+    // Список зупинок
+    const modalList = document.querySelector('.modal-list');
+    data.list ? showBusStopsList(data.list) : ""
+    function showBusStopsList(stopsList) {
+        stopsList.forEach(el => {
+            const busStop = document.createElement('div');
+            busStop.classList.add('modal-list-block');
+            busStop.innerHTML = `
+                <div class="modal-list-time">${el.time ? el.time : ""}</div>
+                <div class="modal-list-marker"></div>
+                <div class="modal-list-city">${el.bus_stop}</div>
+            `
+            modalList.appendChild(busStop)
+        })
+    }
+
     // Колір таблички з номером
     const modalNumber = document.querySelector('.modal-header-number');
     modalNumber.setAttribute("style", `background-color: ${changeColor(data.number)}`);
@@ -164,3 +183,10 @@ function changeColor(busNumber) {
 }
 
 loadBuses(busesFromLvivList);
+
+
+
+//  ${busStopsList.forEach(el => {
+//                                 console.log(el.bus_stop);
+//                                 console.log(el.time);
+//                             })}

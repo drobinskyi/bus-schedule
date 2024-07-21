@@ -203,9 +203,43 @@ main {
   width: 100%;
   padding-top: 20px;
   color: #0f1b38;
+  border-top: 1px solid #b7bdc2;
+}
+
+.modal-note {
+  max-height: 28px;
+  color: #a5aaae;
   font-size: 20px;
   font-weight: 400;
-  border-top: 1px solid #b7bdc2;
+}
+
+.modal-list-block {
+  height: 32px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: #0f1b38;
+}
+
+.modal-list-time,
+.modal-list-city {
+  min-width: 120px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.modal-list-time {
+  text-align: right;
+}
+
+.modal-list-marker {
+  height: 16px;
+  width: 16px;
+  background-color: #fae9d7;
+  border: 4px solid #e69138;
+  border-radius: 10px;
 }
 
 .modal-close {
