@@ -145,15 +145,14 @@ main {
 }
 
 .icon {
-  color: #3f4c5e;
+  color: #5c8cbf;
   font-size: 32px;
-  text-shadow: 2px 2px 2px #5c8cbf;
   transition: 0.2s ease;
 }
 
 .icon:hover,
 .icon:active {
-  color: #5c8cbf;
+  color: #3f4c5e;
   text-shadow: none;
 }
 
