@@ -39,9 +39,7 @@ directionToLvivBtn.addEventListener('click', () => {
 });
 
 // Масив маршрутів
-
 let arraySchedule = [];
-
 function loadSchedule(data) {
     arraySchedule = data;
 }
@@ -117,7 +115,7 @@ function routeModal(data) {
     `
     // Список зупинок
     const modalList = document.querySelector('.modal-list');
-    data.list ? showBusStopsList(data.list) : ""
+    data.list ? showBusStopsList(data.list) : "";
     function showBusStopsList(stopsList) {
         stopsList.forEach(el => {
             const busStop = document.createElement('div');
@@ -127,14 +125,13 @@ function routeModal(data) {
                 <div class="modal-list-marker"></div>
                 <div class="modal-list-city">${el.bus_stop}</div>
             `
-            modalList.appendChild(busStop)
+            modalList.appendChild(busStop);
         })
     }
 
     // Колір таблички з номером
     const modalNumber = document.querySelector('.modal-header-number');
     modalNumber.setAttribute("style", `background-color: ${changeColor(data.number)}`);
-
 
     // Закриття модального вікна
     const closeModal = document.querySelector('.modal-close');
@@ -183,10 +180,3 @@ function changeColor(busNumber) {
 }
 
 loadBuses(busesFromLvivList);
-
-
-
-//  ${busStopsList.forEach(el => {
-//                                 console.log(el.bus_stop);
-//                                 console.log(el.time);
-//                             })}
