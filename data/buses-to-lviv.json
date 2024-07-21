@@ -36,13 +36,36 @@
             "number": "603",
             "time": "6:20",
             "departure_city": "Повергів",
-            "departure_time": "5:40"
+            "departure_time": "5:40",
+            "list": 
+            [
+                {
+                    "bus_stop": "Повергів",
+                    "time": "5:40"
+                },
+                {
+                    "bus_stop": "Колодруби",
+                    "time": "5:50"
+                },
+                {
+                    "bus_stop": "Щирець",
+                    "time": "6:20"
+                },
+                {
+                    "bus_stop": "Пустомити",
+                    "time": "6:40"
+                },
+                {
+                    "bus_stop": "Львів"
+                }   
+            ]
         },
         {
             "id": 6,
             "number": "604 Б",
             "time": "6:30",
-            "departure_city": "Тернопілля",
+            "departure_city": "Миколаїв",
+            "alternative_departure_city": "Тернопілля",
             "departure_time": "6:00"
         },
         {
@@ -95,7 +118,29 @@
             "number": "603",
             "time": "7:30",
             "departure_city": "Липиці",
-            "departure_time": "6:50"
+            "departure_time": "6:50",
+            "list": 
+            [
+                {
+                    "bus_stop": "Липиці",
+                    "time": "6:50"
+                },
+                {
+                    "bus_stop": "Колодруби",
+                    "time": "7:00"
+                },
+                {
+                    "bus_stop": "Щирець",
+                    "time": "7:30"
+                },
+                {
+                    "bus_stop": "Пустомити",
+                    "time": "7:50"
+                },
+                {
+                    "bus_stop": "Львів"
+                }   
+            ]
         },
         {
             "id": 14,
@@ -124,7 +169,29 @@
             "number": "603",
             "time": "8:20",
             "departure_city": "Гірське",
-            "departure_time": "7:30"
+            "departure_time": "7:30",
+            "list": 
+            [
+                {
+                    "bus_stop": "Гірське",
+                    "time": "7:30"
+                },
+                {
+                    "bus_stop": "Колодруби",
+                    "time": "7:50"
+                },
+                {
+                    "bus_stop": "Щирець",
+                    "time": "8:20"
+                },
+                {
+                    "bus_stop": "Пустомити",
+                    "time": "8:40"
+                },
+                {
+                    "bus_stop": "Львів"
+                }   
+            ]
         },
         {
             "id": 18,
@@ -182,7 +249,29 @@
             "number": "603",
             "time": "10:20",
             "departure_city": "Повергів",
-            "departure_time": "9:40"
+            "departure_time": "9:40",
+            "list": 
+            [
+                {
+                    "bus_stop": "Повергів",
+                    "time": "9:40"
+                },
+                {
+                    "bus_stop": "Колодруби",
+                    "time": "9:50"
+                },
+                {
+                    "bus_stop": "Щирець",
+                    "time": "10:20"
+                },
+                {
+                    "bus_stop": "Пустомити",
+                    "time": "10:40"
+                },
+                {
+                    "bus_stop": "Львів"
+                }   
+            ]
         },
         {
             "id": 26,
@@ -232,7 +321,29 @@
             "number": "603",
             "time": "12:00",
             "departure_city": "Липиці",
-            "departure_time": "11:20"
+            "departure_time": "11:20",
+            "list": 
+            [
+                {
+                    "bus_stop": "Липиці",
+                    "time": "11:20"
+                },
+                {
+                    "bus_stop": "Колодруби",
+                    "time": "11:30"
+                },
+                {
+                    "bus_stop": "Щирець",
+                    "time": "12:00"
+                },
+                {
+                    "bus_stop": "Пустомити",
+                    "time": "12:20"
+                },
+                {
+                    "bus_stop": "Львів"
+                }   
+            ]
         },
         {
             "id": 33,
@@ -311,7 +422,29 @@
             "number": "603",
             "time": "14:30",
             "departure_city": "Гірське",
-            "departure_time": "13:30"
+            "departure_time": "13:30",
+            "list": 
+            [
+                {
+                    "bus_stop": "Гірське",
+                    "time": "13:30"
+                },
+                {
+                    "bus_stop": "Колодруби",
+                    "time": "14:00"
+                },
+                {
+                    "bus_stop": "Щирець",
+                    "time": "14:30"
+                },
+                {
+                    "bus_stop": "Пустомити",
+                    "time": "14:50"
+                },
+                {
+                    "bus_stop": "Львів"
+                }   
+            ]
         },
         {
             "id": 44,
@@ -353,7 +486,29 @@
             "number": "603",
             "time": "16:20",
             "departure_city": "Липиці",
-            "departure_time": "15:40"
+            "departure_time": "15:40",
+            "list": 
+            [
+                {
+                    "bus_stop": "Липиці",
+                    "time": "15:40"
+                },
+                {
+                    "bus_stop": "Колодруби",
+                    "time": "15:50"
+                },
+                {
+                    "bus_stop": "Щирець",
+                    "time": "16:20"
+                },
+                {
+                    "bus_stop": "Пустомити",
+                    "time": "16:40"
+                },
+                {
+                    "bus_stop": "Львів"
+                }   
+            ]
         },
         {
             "id": 50,
@@ -418,7 +573,29 @@
             "number": "603",
             "time": "18:20",
             "departure_city": "Повергів",
-            "departure_time": "17:40"
+            "departure_time": "17:40",
+            "list": 
+            [
+                {
+                    "bus_stop": "Повергів",
+                    "time": "17:40"
+                },
+                {
+                    "bus_stop": "Колодруби",
+                    "time": "17:50"
+                },
+                {
+                    "bus_stop": "Щирець",
+                    "time": "18:20"
+                },
+                {
+                    "bus_stop": "Пустомити",
+                    "time": "18:50"
+                },
+                {
+                    "bus_stop": "Львів"
+                }   
+            ]
         },
         {
             "id": 59,
