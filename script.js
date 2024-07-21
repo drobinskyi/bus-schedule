@@ -108,24 +108,29 @@ function routeModal(data) {
                 <div class="modal-note">
                     ${data.note ? data.note : ""}
                 </div>
-                <div class="modal-list"></div>
+                <div class="modal-list">
+                    <table class="modal-table">
+                        <tbody class="modal-table-body">
+                        </tbody>
+                    </table>
+                </div>
             </div>
             <button type="button" class="button modal-close">Закрити</button>
         </div>
     `
     // Список зупинок
-    const modalList = document.querySelector('.modal-list');
+    const modalTableBody = document.querySelector('.modal-table-body');
     data.list ? showBusStopsList(data.list) : "";
     function showBusStopsList(stopsList) {
         stopsList.forEach(el => {
-            const busStop = document.createElement('div');
-            busStop.classList.add('modal-list-block');
+            const busStop = document.createElement('tr');
+            busStop.classList.add('modal-table-row');
             busStop.innerHTML = `
-                <div class="modal-list-time">${el.time ? el.time : ""}</div>
-                <div class="modal-list-marker"></div>
-                <div class="modal-list-city">${el.bus_stop}</div>
+                <td class="modal-table-time">${el.time ? el.time : ""}</td>
+                <td class="modal-table-marker"><div class="bus-stop-marker"></div></td>
+                <td class="modal-table-stop">${el.bus_stop}</td>
             `
-            modalList.appendChild(busStop);
+            modalTableBody.appendChild(busStop);
         })
     }
 

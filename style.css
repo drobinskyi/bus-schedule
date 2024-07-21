@@ -149,11 +149,9 @@ main {
   font-size: 32px;
   transition: 0.2s ease;
 }
-
 .icon:hover,
 .icon:active {
   color: #3f4c5e;
-  text-shadow: none;
 }
 
 /* Modal */
@@ -230,28 +228,38 @@ main {
   font-weight: 400;
 }
 
-.modal-list-block {
+.modal-list {
+  display: flex;
+  justify-content: left;
+}
+
+.modal-table {
+  border-collapse: collapse;
+}
+
+.modal-table-row {
   height: 32px;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
   color: #0f1b38;
 }
 
-.modal-list-time,
-.modal-list-city {
-  min-width: 120px;
+.modal-table-time {
   font-size: 20px;
   font-weight: 400;
-}
-
-.modal-list-time {
   text-align: right;
 }
 
-.modal-list-marker {
+.modal-table-stop {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.modal-table-marker {
+  width: 32px;
+  padding: 8px;
+}
+
+.bus-stop-marker {
   height: 16px;
   width: 16px;
   background-color: #fae9d7;
