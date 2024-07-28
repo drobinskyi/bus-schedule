@@ -33,14 +33,16 @@
             "time": "5:50",
             "departure_city": "Комарно",
             "alternative_departure_city": "село",
-            "departure_time": "5:10"
+            "departure_time": "5:10",
+            "note": "Крім неділі"
         },
         {
             "id": 3,
             "number": "614",
             "time": "6:00",
             "departure_city": "Переможне",
-            "departure_time": "5:20"
+            "departure_time": "5:20",
+            "note": "Крім неділі"
         },
         {
             "id": 4,
@@ -117,7 +119,8 @@
             "number": "614",
             "time": "6:50",
             "departure_city": "Переможне",
-            "departure_time": "6:00"
+            "departure_time": "6:00",
+            "note": "Крім неділі"
         },
         {
             "id": 9,
@@ -458,7 +461,8 @@
             "number": "202",
             "time": "11:45",
             "departure_city": "Комарно",
-            "departure_time": "10:50"
+            "departure_time": "10:50",
+            "note": "Крім неділі"
         },
         {
             "id": 32,
