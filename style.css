@@ -216,8 +216,8 @@ main {
 .modal-content {
   min-height: 64px;
   width: 100%;
-  padding-top: 20px;
   color: #0f1b38;
+  padding-top: 16px;
   border-top: 1px solid #b7bdc2;
 }
 
@@ -231,7 +231,7 @@ main {
 .modal-list {
   display: flex;
   justify-content: left;
-  margin-top: 8px;
+  margin-top: 12px;
 }
 
 .modal-table {
