@@ -170,7 +170,7 @@ main {
   padding: 20px;
   box-shadow: 5px 5px 10px #c8c8c8, -5px -5px 10px #f5f5f5;
   border-radius: 10px;
-  background-color: #e2edf7;
+  background: linear-gradient(to top, #f7f8f8, 40%, #e2edf7);
 }
 
 .modal-header {
