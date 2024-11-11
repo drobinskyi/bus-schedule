@@ -12,7 +12,7 @@ body {
 /* Header */
 
 .header {
-  padding: 20px 16px;
+  padding: 16px;
   height: auto;
   width: 100%;
   position: sticky;
@@ -21,65 +21,10 @@ body {
 }
 
 .header-title {
-  padding-bottom: 20px;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 600;
   text-align: center;
   color: #3f4c5e;
-}
-
-.direction-choice {
-  padding: 0 16px;
-}
-
-.direction-block {
-  height: 44px;
-  margin: 0 auto;
-  min-width: 300px;
-  max-width: 640px;
-}
-
-.direction-text {
-  height: 40px;
-  width: 100%;
-  display: flex;
-}
-
-.direction-from-lviv,
-.direction-to-lviv {
-  height: 100%;
-  width: 50%;
-  color: #6b7885;
-  font-size: 24px;
-  display: grid;
-  place-items: center;
-  cursor: pointer;
-  transition: 0.2s ease-in-out;
-}
-
-.direction-from-lviv:active,
-.direction-to-lviv:active {
-  color: #6b7885;
-  font-size: 22px;
-}
-
-.direction-text-selected {
-  color: #5c8cbf;
-  font-weight: 600;
-}
-
-.direction-select-animation {
-  height: 4px;
-  width: 100%;
-  display: flex;
-}
-
-.direction-selected {
-  height: 100%;
-  width: 50%;
-  border-radius: 4px;
-  background-color: #5c8cbf;
-  transition: 0.2s ease-in-out;
 }
 
 /* Таблиця */
@@ -131,13 +76,60 @@ main {
 
 .footer {
   height: auto;
-  padding: 28px 32px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: #3f4c5e;
-  font-size: 16px;
+  width: 100%;
+  padding: 16px;
+  position: sticky;
+  bottom: 0;
   background: linear-gradient(#f7f8f8, 80%, #5c8cbf);
+}
+
+.direction-block {
+  height: auto;
+  margin: 0 auto;
+  min-width: 300px;
+  max-width: 640px;
+}
+
+.direction-text {
+  height: 40px;
+  width: 100%;
+  display: flex;
+}
+
+.direction-from-lviv,
+.direction-to-lviv {
+  height: 100%;
+  width: 50%;
+  color: #6b7885;
+  font-size: 24px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.direction-from-lviv:active,
+.direction-to-lviv:active {
+  color: #6b7885;
+  font-size: 22px;
+}
+
+.direction-text-selected {
+  color: #3f4c5e;
+}
+
+.direction-select-animation {
+  height: 4px;
+  width: 100%;
+  display: flex;
+}
+
+.direction-selected {
+  height: 100%;
+  width: 50%;
+  border-radius: 4px;
+  background-color: #3f4c5e;
+  transition: 0.2s ease-in-out;
 }
 
 .link-telegram {
