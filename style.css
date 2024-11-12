@@ -12,12 +12,13 @@ body {
 /* Header */
 
 .header {
-  padding: 16px;
+  padding: 16px 32px 12px;
   height: auto;
   width: 100%;
   position: sticky;
   top: 0;
-  background: #e2edf7;
+  /* background: #e2edf7; */
+  background: linear-gradient(to top, #f7f8f8, 40%, #d9dfdb);
 }
 
 .header-title {
@@ -25,67 +26,6 @@ body {
   font-weight: 600;
   text-align: center;
   color: #3f4c5e;
-}
-
-/* Таблиця */
-
-main {
-  padding: 0 32px;
-}
-.table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.table-row {
-  height: 60px;
-  border-bottom: 1px solid #b7bdc2;
-  cursor: pointer;
-}
-
-.table-row:last-child {
-  border-bottom: none;
-}
-
-.table-number {
-  width: 40%;
-  font-size: 36px;
-  font-weight: 900;
-}
-
-.table-time {
-  width: 35%;
-  font-size: 32px;
-  font-weight: 400;
-  color: #3f4c5e;
-}
-
-.table-note {
-  font-size: 16px;
-  color: #a5aaae;
-}
-
-.table-departure {
-  font-size: 16px;
-  color: #3f4c5e;
-}
-
-.table-departure-time {
-  color: #0f1b38;
-  font-size: 20px;
-  font-weight: 400;
-}
-
-/* Footer */
-
-.footer {
-  height: auto;
-  width: 100%;
-  padding: 8px 32px;
-  position: sticky;
-  bottom: 0;
-  /* background: linear-gradient(#f7f8f8, 80%, #5c8cbf); */
-  background: #e2edf7;
 }
 
 .direction-block {
@@ -137,6 +77,67 @@ main {
   transition: 0.2s ease-in-out;
 }
 
+/* Таблиця */
+
+main {
+  padding: 0 32px;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-row {
+  height: 60px;
+  border-bottom: 1px solid #b7bdc2;
+  cursor: pointer;
+}
+
+/* .table-row:last-child {
+  border-bottom: none;
+} */
+
+.table-number {
+  width: 40%;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.table-time {
+  width: 35%;
+  font-size: 32px;
+  font-weight: 400;
+  color: #3f4c5e;
+}
+
+.table-note {
+  font-size: 16px;
+  color: #a5aaae;
+}
+
+.table-departure {
+  font-size: 16px;
+  color: #3f4c5e;
+}
+
+.table-departure-time {
+  color: #0f1b38;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* Footer */
+
+.footer {
+  height: 60px;
+  width: 100%;
+  padding: 8px 32px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  color: #0f1b38;
+}
+
 .link-telegram {
   text-decoration: none;
 }
@@ -170,7 +171,7 @@ main {
   padding: 20px;
   box-shadow: 5px 5px 10px #c8c8c8, -5px -5px 10px #f5f5f5;
   border-radius: 10px;
-  background: linear-gradient(to top, #f7f8f8, 40%, #e2edf7);
+  background: linear-gradient(to top, #f7f8f8, 40%, #d9dfdb);
 }
 
 .modal-header {
@@ -280,7 +281,7 @@ main {
   margin-top: 20px;
   border: none;
   border-radius: 6px;
-  background-color: #5c8cbf;
+  background-color: #6b7885;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 24px;
   color: #f7f8f8;
@@ -289,7 +290,7 @@ main {
 }
 
 .modal-close:hover {
-  background-color: #6b7885;
+  background-color: #8a9b8e;
 }
 
 .modal-close:active {

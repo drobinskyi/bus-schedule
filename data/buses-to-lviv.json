@@ -327,13 +327,13 @@
             "number": "113",
             "time": "9:50",
             "departure_city": "Яструбків",
-            "departure_time": "9:20",
+            "departure_time": "9:15",
             "note": "Крім неділі",
             "list": 
             [
                 {
                     "bus_stop": "Яструбків",
-                    "time": "9:20"
+                    "time": "9:15"
                 },
                 {
                     "bus_stop": "Щирець",
