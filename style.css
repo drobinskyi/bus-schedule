@@ -22,9 +22,18 @@ body {
 }
 
 .header-title {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-title-bus {
+  height: 32px;
+}
+
+.header-title-text {
   font-size: 24px;
   font-weight: 600;
-  text-align: center;
   color: #3f4c5e;
 }
 
