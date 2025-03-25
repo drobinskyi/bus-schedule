@@ -12,30 +12,45 @@ body {
 /* Header */
 
 .header {
-  padding: 12px 32px 12px;
+  padding: 16px 32px 12px;
   height: auto;
   width: 100%;
-  position: sticky;
+  position: fixed;
   top: 0;
   /* background: #e2edf7; */
   background: linear-gradient(to top, #f7f8f8, 40%, #d9dfdb);
 }
 
 .header-title {
-  height: 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  color: #3f4c5e;
+  position: relative;
+  z-index: 2;
 }
 
 .header-title-bus {
   height: 30px;
+  z-index: 1;
+
+  position: absolute;
+  animation-name: bus-animation;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  top: 10px;
+  left: -70px;
+  animation-duration: 12s;
 }
 
-.header-title-text {
-  font-size: 24px;
-  font-weight: 600;
-  color: #3f4c5e;
+@keyframes bus-animation {
+  0% {
+    left: -70px;
+  }
+  100% {
+    left: 100%;
+  }
 }
 
 .direction-block {
