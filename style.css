@@ -12,7 +12,7 @@ body {
 /* Header */
 
 .header {
-  padding: 16px 32px 12px;
+  padding: 12px 32px 12px;
   height: auto;
   width: 100%;
   position: sticky;
@@ -25,10 +25,11 @@ body {
   height: 40px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header-title-bus {
-  height: 32px;
+  height: 30px;
 }
 
 .header-title-text {
