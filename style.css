@@ -15,7 +15,7 @@ body {
   padding: 16px 32px 12px;
   height: auto;
   width: 100%;
-  position: fixed;
+  position: sticky;
   top: 0;
   /* background: #e2edf7; */
   background: linear-gradient(to top, #f7f8f8, 40%, #d9dfdb);
@@ -30,17 +30,23 @@ body {
   z-index: 2;
 }
 
+.header-bus-animation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
 .header-title-bus {
   height: 30px;
   z-index: 1;
-
   position: absolute;
+  top: 10px;
+  left: -70px;
   animation-name: bus-animation;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-direction: normal;
-  top: 10px;
-  left: -70px;
   animation-duration: 12s;
 }
 
