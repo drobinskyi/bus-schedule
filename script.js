@@ -72,8 +72,11 @@ function displayBuses(buses) {
         oneBus.innerHTML = `
             <td class="table-number" style="color:${changeColor(el.number)};">${el.number}</td>
             <td class="table-time">${el.time}</td>
+            
             ${el.departure_time ? showDeparture() : showNote()}
         `
+//          ${el.note ? '<i class="fa-solid fa-circle-exclamation"></i>' : ''} треба якось це вписати
+
         tableBody.appendChild(oneBus);
 
         oneBus.addEventListener('click', () => {

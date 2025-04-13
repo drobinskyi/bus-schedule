@@ -12,7 +12,7 @@ body {
 /* Header */
 
 .header {
-  padding: 16px 16px 12px;
+  padding: 16px 20px 12px;
   height: auto;
   width: 100%;
   position: sticky;
@@ -111,7 +111,7 @@ body {
 /* Таблиця */
 
 main {
-  padding: 0 16px;
+  padding: 0 20px;
 }
 .table {
   width: 100%;
@@ -162,7 +162,7 @@ main {
 .footer {
   height: 60px;
   width: 100%;
-  padding: 8px 16px;
+  padding: 8px 20px;
   display: flex;
   justify-content: right;
   align-items: center;
