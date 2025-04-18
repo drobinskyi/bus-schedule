@@ -135,18 +135,29 @@ main {
 }
 
 .table-time {
-  width: 35%;
+  height: 60px;
   font-size: 32px;
   font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   color: #3f4c5e;
 }
 
+.table-note-symbol {
+  font-size: 12px;
+  margin-right: 24px;
+  color: #a5aaae;
+}
+
 .table-note {
+  width: 25%;
   font-size: 16px;
   color: #a5aaae;
 }
 
 .table-departure {
+  width: 25%;
   font-size: 16px;
   color: #3f4c5e;
 }
