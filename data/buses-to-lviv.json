@@ -127,7 +127,8 @@
             "number": "118",
             "time": "7:00",
             "departure_city": "Черкаси",
-            "departure_time": "6:20"
+            "departure_time": "6:20",
+            "note": "Крім неділі"
         },
         {
             "id": 10,
