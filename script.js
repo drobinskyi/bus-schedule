@@ -96,6 +96,7 @@ function selectRoad(id) {
 
 // Відображення модального вікна
 function routeModal(data) {
+    const specialInfo = `<i class="modal-note-symbol fa-solid fa-circle-exclamation"></i>`+ data.note;
     modalWindow.setAttribute("style", "display: flex");
     modalWindow.innerHTML = `
         <div class="modal-window">
@@ -108,7 +109,7 @@ function routeModal(data) {
             </div>
             <div class="modal-content">
                 <div class="modal-note">
-                    ${data.note ? data.note : ""}
+                    ${data.note ? specialInfo : ""}
                 </div>
                 <div class="modal-list">
                     <table class="modal-table">
