@@ -146,6 +146,12 @@ function routeModal(data) {
     closeModal.addEventListener('click', () => {
         modalWindow.setAttribute("style", "display: none");
     });
+
+    modalWindow.addEventListener('click', (event) => {
+        if (event.target === modalWindow) {
+            modalWindow.setAttribute("style", "display: none");
+        } 
+    });
 }
 
 // Зміна кольорів маршрутів
