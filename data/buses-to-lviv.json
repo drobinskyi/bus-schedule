@@ -128,7 +128,25 @@
             "time": "7:00",
             "departure_city": "Черкаси",
             "departure_time": "6:20",
-            "note": "Крім неділі"
+            "note": "Крім неділі",
+            "list": 
+            [
+                {
+                    "bus_stop": "Черкаси",
+                    "time": "6:20"
+                },
+                {
+                    "bus_stop": "Щирець",
+                    "time": "7:00"
+                },
+                {
+                    "bus_stop": "Пустомити",
+                    "time": "7:50"
+                },
+                {
+                    "bus_stop": "Львів"
+                }   
+            ]
         },
         {
             "id": 10,
@@ -320,8 +338,30 @@
             "id": 22,
             "number": "118",
             "time": "9:30",
-            "departure_city": "Дмитре",
-            "departure_time": "9:00"
+            "departure_city": "Миколаїв",
+            "departure_time": "8:40",
+            "list": 
+            [
+                {
+                    "bus_stop": "Миколаїв",
+                    "time": "8:40"
+                },
+                {
+                    "bus_stop": "Гонятичі",
+                    "time": "9:05"
+                },
+                {
+                    "bus_stop": "Щирець",
+                    "time": "9:30"
+                },
+                {
+                    "bus_stop": "Пустомити",
+                    "time": "9:50"
+                },
+                {
+                    "bus_stop": "Львів"
+                }   
+            ]
         },
         {
             "id": 23,
@@ -423,7 +463,25 @@
             "number": "118",
             "time": "11:00",
             "departure_city": "Черкаси",
-            "departure_time": "10:30"
+            "departure_time": "10:30",
+            "list": 
+            [
+                {
+                    "bus_stop": "Черкаси",
+                    "time": "10:30"
+                },
+                {
+                    "bus_stop": "Щирець",
+                    "time": "11:00"
+                },
+                {
+                    "bus_stop": "Пустомити",
+                    "time": "11:20"
+                },
+                {
+                    "bus_stop": "Львів"
+                }   
+            ]
         },
         {
             "id": 29,
@@ -552,8 +610,30 @@
             "id": 38,
             "number": "118",
             "time": "13:30",
-            "departure_city": "Дмитре",
-            "departure_time": "13:05"
+            "departure_city": "Миколаїв",
+            "departure_time": "12:45",
+            "list": 
+            [
+                {
+                    "bus_stop": "Миколаїв",
+                    "time": "12:45"
+                },
+                {
+                    "bus_stop": "Гонятичі",
+                    "time": "13:05"
+                },
+                {
+                    "bus_stop": "Щирець",
+                    "time": "13:30"
+                },
+                {
+                    "bus_stop": "Пустомити",
+                    "time": "13:50"
+                },
+                {
+                    "bus_stop": "Львів"
+                }   
+            ]
         },
         {
             "id": 39,
@@ -661,7 +741,25 @@
             "number": "118",
             "time": "15:10",
             "departure_city": "Черкаси",
-            "departure_time": "14:45"
+            "departure_time": "14:45",
+            "list": 
+            [
+                {
+                    "bus_stop": "Черкаси",
+                    "time": "14:45"
+                },
+                {
+                    "bus_stop": "Щирець",
+                    "time": "15:10"
+                },
+                {
+                    "bus_stop": "Пустомити",
+                    "time": "15:30"
+                },
+                {
+                    "bus_stop": "Львів"
+                }   
+            ]
         },
         {
             "id": 46,
@@ -771,8 +869,30 @@
             "id": 55,
             "number": "118",
             "time": "17:50",
-            "departure_city": "Дмитре",
-            "departure_time": "17:20"
+            "departure_city": "Миколаїв",
+            "departure_time": "17:00",
+            "list": 
+            [
+                {
+                    "bus_stop": "Миколаїв",
+                    "time": "17:00"
+                },
+                {
+                    "bus_stop": "Гонятичі",
+                    "time": "17:25"
+                },
+                {
+                    "bus_stop": "Щирець",
+                    "time": "17:50"
+                },
+                {
+                    "bus_stop": "Пустомити",
+                    "time": "18:10"
+                },
+                {
+                    "bus_stop": "Львів"
+                }   
+            ]
         },
         {
             "id": 56,
@@ -899,7 +1019,25 @@
             "number": "118",
             "time": "19:00",
             "departure_city": "Черкаси",
-            "departure_time": "18:30"
+            "departure_time": "18:30",
+            "list": 
+            [
+                {
+                    "bus_stop": "Черкаси",
+                    "time": "18:30"
+                },
+                {
+                    "bus_stop": "Щирець",
+                    "time": "19:00"
+                },
+                {
+                    "bus_stop": "Пустомити",
+                    "time": "19:20"
+                },
+                {
+                    "bus_stop": "Львів"
+                }   
+            ]
         },
         {
             "id": 63,
