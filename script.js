@@ -193,4 +193,9 @@ function changeColor(busNumber) {
         }
 }
 
+// Поточний рік у футері
+const yearElement = document.getElementById("footer-year");
+const currentYear = new Date().getFullYear();
+yearElement.textContent = currentYear;
+
 loadBuses(busesFromLvivList);
