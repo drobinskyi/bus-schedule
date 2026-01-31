@@ -288,7 +288,6 @@ main {
 }
 
 .modal-table-row {
-  position: relative;
   height: 32px;
   width: 100%;
   color: #0f1b38;
@@ -319,18 +318,18 @@ main {
   border-radius: 10px;
 }
 
-.modal-table-row::before {
+.bus-stop-marker::before {
   content: "";
   position: absolute;
-  top: 22px;
+  top: 12px;
   bottom: 0;
-  left: 49px;
+  left: 4px;
   width: 3px;
   height: 20px;
   background-color: #e69138;
 }
 
-.modal-table-row:last-child:before {
+.modal-table-row:last-child .bus-stop-marker::before {
   content: "";
   position: absolute;
   top: 0;
