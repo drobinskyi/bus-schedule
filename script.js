@@ -121,6 +121,12 @@ function routeModal(data) {
             <button type="button" class="button modal-close">Закрити</button>
         </div>
     `
+    // Приховування пустої примітки
+    const modalNote = document.querySelector('.modal-note');
+    if (modalNote.children.length === 0) {
+        modalNote.style.display = 'none';
+    }
+
     // Список зупинок
     const modalTableBody = document.querySelector('.modal-table-body');
     data.list ? showBusStopsList(data.list) : "";

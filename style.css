@@ -238,6 +238,7 @@ main {
   text-align: center;
   color: #f7f8f8;
   border-radius: 6px;
+  box-shadow: 4px 4px 8px #c8c8c8;
 }
 
 .modal-header-cities {
@@ -259,12 +260,13 @@ main {
   min-height: 64px;
   width: 100%;
   color: #0f1b38;
-  padding-top: 16px;
   border-top: 1px solid #b7bdc2;
 }
 
 .modal-note {
   max-height: 28px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   color: #a5aaae;
   font-size: 18px;
   font-weight: 400;
