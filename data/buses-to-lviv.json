@@ -571,13 +571,13 @@
             "number": "113",
             "time": "12:30",
             "departure_city": "Яструбків",
-            "departure_time": "12:05",
+            "departure_time": "12:00",
             "note": "Крім неділі",
             "list": 
             [
                 {
                     "bus_stop": "Яструбків",
-                    "time": "12:05"
+                    "time": "12:00"
                 },
                 {
                     "bus_stop": "Щирець",
@@ -830,13 +830,13 @@
             "number": "113",
             "time": "16:50",
             "departure_city": "Яструбків",
-            "departure_time": "16:30",
+            "departure_time": "16:20",
             "note": "Крім неділі",
             "list": 
             [
                 {
                     "bus_stop": "Яструбків",
-                    "time": "16:30"
+                    "time": "16:20"
                 },
                 {
                     "bus_stop": "Щирець",
