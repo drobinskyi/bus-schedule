@@ -368,7 +368,8 @@
             "number": "604 A",
             "time": "9:40",
             "departure_city": "Миколаїв",
-            "departure_time": "8:35"
+            "departure_time": "8:35",
+            "note": "Крім неділі"
         },
         {
             "id": 24,
