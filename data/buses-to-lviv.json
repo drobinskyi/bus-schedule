@@ -605,7 +605,8 @@
             "number": "132",
             "time": "13:00",
             "departure_city": "Диб'янка",
-            "departure_time": "12:30"
+            "departure_time": "12:30",
+            "note": "Тимчасово не курсує"
         },
         {
             "id": 38,
